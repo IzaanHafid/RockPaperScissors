@@ -1,0 +1,72 @@
+* {
+    background-color: rgb(15, 15, 30);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+div {
+    display: inline-block;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 50px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(15, 15, 20);
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-style: solid;
+    border-radius: 30px;
+    border-width: 5px;
+    font-weight: bold;
+    transition: background-color 0.5;
+    transition: color 0.25s;
+}
+
+button:hover {
+    background-color: rgb(25, 25, 30);
+}
+
+button:active {
+    background-color: rgb(40, 40, 40);
+}
+
+.output {
+    display: inline-block;
+    margin-left: 65px;
+    padding: 15px;
+    font-weight: bolder;
+    border-style: solid;
+    border-radius: 50px;
+    visibility: hidden;
+}
+
+.error {
+    display: inline-block;
+    color: red;
+    background-color: black;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.play {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.reset {
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
